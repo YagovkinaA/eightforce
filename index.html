@@ -1,0 +1,49 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8"/>
+    <title>form</title>
+</head>
+<body>
+<a href="#ppup">
+<button class="aconteiner" onclick="popshow()">
+    take a form
+</button>
+</a>
+<div class="bconteiner" id="popup" style="left: 0">
+    <div class="popupcontent">
+        <form class="ajaxForm" action="https://formcarry.com/s/szyB-4jmPvG" accept-charset="UTF-8" >
+            <label>
+                Name:<br/>
+                <input name="namefield"
+                       id = "name"
+                       placeholder="get your name"
+                       onchange="chckpapram()"
+                        type="text"/>
+            </label><br/>
+            <label>
+                Email:<br/>
+                <input name="field-email"
+                       id = "email"
+                       placeholder="test@email.com"
+                       onchange="chckpapram()"
+                       type="email" >
+            </label><br/>
+            <label>
+                Your message:<br/>
+                <textarea name="field-text"
+                          id = "msg"
+                          onchange="chckpapram()"
+                          placeholder="To wright there"></textarea>
+            </label><br/>
+            <br/>
+            <label id="checkt"><input type="checkbox"
+                          id="check" onchange="chckpapram()"/>accepted of  the contract</label>
+            <button type="submit" id="send">send</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: skyblue;
+}
+.aconteiner{
+    border-radius: 10px;
+    width:200px;
+    height:75px;
+    background-color: orange;
+    font-size:30px;
+    color: black;
+    margin-top: 300px;
+    margin-left: 40%;
+}
+.bconteiner{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.6);
+    position:fixed;
+    overflow: hidden;
+    top:0;
+}
+.bconteiner .popupcontent{
+    margin:100px auto;
+    width:400px;
+    height: 300px;
+    padding:10px;
+    background-color: yellow;
+    border-radius:5px;
+    box-shadow: 0 0 10px #000;
+}
+form > *, input, textarea{
+    margin-left: 70px;
+}
+#checkt{
+    margin-left: 0;
+}
+#send{
+    font-size: 30px;
+    color: red;
+    background-color: white;
+    border-radius: 30px;
+    width: 50%;
+    height: 20%;
+    margin: 20px 0 0 90px;
+}
